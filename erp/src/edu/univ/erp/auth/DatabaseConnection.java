@@ -17,7 +17,7 @@ public class DatabaseConnection {
         
         // !! IMPORTANT: SET YOUR USERNAME AND PASSWORD HERE !!
         authConfig.setUsername("root");
-        authConfig.setPassword("ShrishtiAnsh2103"); // <-- SET PASSWORD HERE
+        authConfig.setPassword("root"); // <-- SET PASSWORD HERE
         
         authConfig.addDataSourceProperty("cachePrepStmts", "true");
         authConfig.addDataSourceProperty("prepStmtCacheSize", "250");
@@ -30,7 +30,7 @@ public class DatabaseConnection {
         
         // !! IMPORTANT: SET YOUR USERNAME AND PASSWORD HERE !!
         erpConfig.setUsername("root");
-        erpConfig.setPassword("ShrishtiAnsh2103"); // <-- SET PASSWORD HERE
+        erpConfig.setPassword("root"); // <-- SET PASSWORD HERE
         
         erpConfig.addDataSourceProperty("cachePrepStmts", "true");
         erpConfig.addDataSourceProperty("prepStmtCacheSize", "250");

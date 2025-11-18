@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run LoginWindow",
+      "request": "launch",
+      "mainClass": "edu.univ.erp.ui.auth.LoginWindow",
+      "projectName": "erp"
+    },
+    {
+      "type": "java",
+      "name": "Seed Admin User",
+      "request": "launch",
+      "mainClass": "edu.univ.erp.auth.SeedAdminUser",
+      "projectName": "erp"
+    }
+  ]
+}
